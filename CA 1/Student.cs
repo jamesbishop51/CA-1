@@ -12,7 +12,8 @@ namespace CA_1
 
         public string DOB { get; set; }
 
-        List<Subject> Subject = new List<Subject>();
+        //public static List<Subject> AllSubject { get; set; } = new List<Subject>();
+
 
         public Student (string name, string dob)
         {
@@ -20,6 +21,15 @@ namespace CA_1
             DOB = dob;
 
         }
+
+        
+
+        public override string ToString()
+        {
+            return $"{Name}\t{DOB}";
+        }
+       
+
 
     }
 }

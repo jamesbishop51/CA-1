@@ -25,9 +25,10 @@ namespace CA_1
 
         public override string ToString()
         {
-            return $"{Name}{Lecturer}{Year}";
+            return $"{Name}\t{Lecturer}\t{Year}";
         }
-
+        
+        
 
 
     }
