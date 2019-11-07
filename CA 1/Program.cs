@@ -24,9 +24,12 @@ namespace CA_1
             AllSubject.Add(subject4);
 
 
-
             Student student1 = new Student("James Bishop", "22/11/1997");
             Student student2 = new Student("Joe Smith", "21/10/2000");
+
+            List<Student> Allstudents = new List<Student>();
+            Allstudents.Add(student1);
+            Allstudents.Add(student2);
 
 
 
@@ -43,6 +46,21 @@ namespace CA_1
             }
             Console.WriteLine();
         }
+        // tried a few different methods but each one didnt work, ran out of time.
+        ////public static void DisplayAgeinDays(List<Student> students)
+        ////{
+
+        ////    foreach (Student student in students)
+        ////    {
+
+        ////        DateTime days = DateTime.Parse(students.DOB);
+
+        ////        DateTime +=;
+
+
+        ////    }
+
+        ////}
 
     }
 }
